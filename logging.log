@@ -1,0 +1,69 @@
+2022-08-18 15:51:33 ERROR ExceptionsHandler:27 - [User not found error]  com.example.asset.exceptions.UserNotFoundException: java.lang.IllegalArgumentException: Illegal character in scheme name at index 0: %22http://localhost:8080/user/%2217
+2022-08-18 15:52:48 ERROR ExceptionsHandler:27 - [User not found error]  com.example.asset.exceptions.UserNotFoundException: org.springframework.web.client.HttpClientErrorException$NotFound: 404 : "{"status":404,"message":"user not found ","timestamp":1660830768682}"
+2022-08-18 15:53:05 ERROR ExceptionsHandler:27 - [User not found error]  com.example.asset.exceptions.UserNotFoundException: org.springframework.web.client.HttpClientErrorException$NotFound: 404 : "{"status":404,"message":"user not found ","timestamp":1660830785416}"
+2022-08-18 16:16:02 ERROR ExceptionsHandler:42 - [general exception error]  java.lang.NullPointerException
+2022-08-18 16:16:41 ERROR ExceptionsHandler:42 - [general exception error]  java.lang.NullPointerException
+2022-08-18 16:16:57 ERROR ExceptionsHandler:42 - [general exception error]  org.springframework.web.client.HttpClientErrorException$BadRequest: 400 : "{"status":400,"message":"duplicated primary key ","timestamp":1660832217819}"
+2022-08-18 16:17:15 ERROR ExceptionsHandler:42 - [general exception error]  org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+2022-08-18 16:18:02 ERROR ExceptionsHandler:42 - [general exception error]  java.lang.NullPointerException
+2022-08-18 16:29:59 ERROR ExceptionsHandler:42 - [general exception error]  java.lang.NullPointerException
+2022-08-18 16:31:45 ERROR ExceptionsHandler:27 - [User not found error]  com.example.asset.exceptions.UserNotFoundException: org.springframework.web.client.HttpClientErrorException$NotFound: 404 : "{"status":404,"message":"user not found ","timestamp":1660833105288}"
+2022-08-18 16:32:45 ERROR ExceptionsHandler:42 - [general exception error]  java.lang.NullPointerException
+2022-08-18 16:34:54 INFO  ApiAccess:41 - user with id [3010] inserted 
+2022-08-18 16:36:47 ERROR ExceptionsHandler:42 - [general exception error]  java.lang.NullPointerException
+2022-08-18 16:59:23 ERROR ExceptionsHandler:42 - [general exception error]  org.springframework.web.client.HttpClientErrorException$BadRequest: 400 : "{"status":400,"message":"Could not open JDBC Connection for transaction; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 20015ms.","timestamp":1660834763221}"
+2022-08-18 17:00:17 ERROR ExceptionsHandler:42 - [general exception error]  org.springframework.web.client.RestClientException: Error while extracting response for type [class com.example.asset.model.UserList] and content type [application/json]; nested exception is org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `com.example.asset.model.UserList` from Array value (token `JsonToken.START_ARRAY`); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `com.example.asset.model.UserList` from Array value (token `JsonToken.START_ARRAY`)
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 1]
+2022-08-18 18:00:19 ERROR ExceptionsHandler:42 - [general exception error]  org.springframework.web.client.HttpClientErrorException$BadRequest: 400 : "{"status":400,"message":"JSON parse error: Cannot construct instance of `com.asset.demo.model.User` (although at least one Creator exists): no int/Int-argument constructor/factory method to deserialize from Number value (3010); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `com.asset.demo.model.User` (although at least one Creator exists): no int/Int-argument constructor/factory method to deserialize from Number value (3010)\n at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 1]","timestamp":1660838419202}"
+2022-08-18 18:01:13 ERROR ExceptionsHandler:42 - [general exception error]  org.springframework.web.client.HttpClientErrorException$BadRequest: 400 : "{"status":400,"message":"JSON parse error: Cannot construct instance of `com.asset.demo.model.User` (although at least one Creator exists): no int/Int-argument constructor/factory method to deserialize from Number value (2); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `com.asset.demo.model.User` (although at least one Creator exists): no int/Int-argument constructor/factory method to deserialize from Number value (2)\n at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 1]","timestamp":1660838473494}"
+2022-08-18 18:05:05 ERROR ExceptionsHandler:42 - [general exception error]  org.springframework.web.client.HttpClientErrorException$BadRequest: 400 : "{"status":400,"message":"Request method 'DELETE' not supported","timestamp":1660838705748}"
+2022-08-18 18:05:31 ERROR ExceptionsHandler:42 - [general exception error]  org.springframework.web.client.HttpClientErrorException$BadRequest: 400 : "{"status":400,"message":"Request method 'DELETE' not supported","timestamp":1660838731243}"
+2022-08-18 18:07:40 ERROR ExceptionsHandler:27 - [User not found error]  com.example.asset.exceptions.UserNotFoundException: org.springframework.web.client.HttpClientErrorException$NotFound: 404 : "{"status":404,"message":"user not found ","timestamp":1660838860172}"
+2022-08-21 12:13:41 INFO  ExecutionTimeAspect:25 - method [getUser] executed in [ 4061 ] ms 
+2022-08-21 12:13:41 ERROR ExceptionsHandler:27 - [User not found error]  com.example.asset.exceptions.UserNotFoundException: org.springframework.web.client.HttpClientErrorException$NotFound: 404 : "{"status":404,"message":"user not found ","timestamp":1661076821203}"
+2022-08-21 12:15:31 ERROR ApiAccessImpl:34 - user with id [3010] not found
+2022-08-21 12:15:31 INFO  ExecutionTimeAspect:25 - method [getUser] executed in [ 417 ] ms 
+2022-08-21 12:15:31 ERROR ExceptionsHandler:27 - [User not found error]  com.example.asset.exceptions.UserNotFoundException: org.springframework.web.client.HttpClientErrorException$NotFound: 404 : "{"status":404,"message":"user not found ","timestamp":1661076930978}"
+2022-08-21 12:17:02 ERROR ApiAccessImpl:34 - user with id [3010] not found
+2022-08-21 12:17:04 INFO  ExecutionTimeAspect:25 - method [getUser] executed in [ 13428 ] ms 
+2022-08-21 12:17:04 ERROR ExceptionsHandler:27 - [User not found error]  com.example.asset.exceptions.UserNotFoundException: org.springframework.web.client.HttpClientErrorException$NotFound: 404 : "{"status":404,"message":"user not found ","timestamp":1661077015608}"
+2022-08-21 12:21:33 INFO  ExecutionTimeAspect:25 - method [getUser] executed in [ 469 ] ms 
+2022-08-21 12:21:33 ERROR ExceptionsHandler:27 - user with id [3010 ] not found 
+2022-08-21 12:22:13 INFO  ExecutionTimeAspect:25 - method [insertUser] executed in [ 678 ] ms 
+2022-08-21 12:22:13 ERROR ExceptionsHandler:42 - [general exception error]  org.springframework.web.client.HttpClientErrorException$BadRequest: 400 : "{"status":400,"message":"duplicated primary key ","timestamp":1661077333240}"
+2022-08-21 12:22:43 INFO  ApiAccessImpl:46 - user with id [3010] inserted 
+2022-08-21 12:22:43 INFO  ExecutionTimeAspect:25 - method [insertUser] executed in [ 277 ] ms 
+2022-08-21 12:23:36 INFO  ExecutionTimeAspect:25 - method [insertUser] executed in [ 372 ] ms 
+2022-08-21 12:23:36 ERROR ExceptionsHandler:42 - [general exception error]  org.springframework.web.client.HttpClientErrorException$BadRequest: 400 : "{"status":400,"message":"duplicated primary key ","timestamp":1661077416319}"
+2022-08-21 12:25:13 INFO  ExecutionTimeAspect:25 - method [insertUser] executed in [ 441 ] ms 
+2022-08-21 12:25:13 ERROR ExceptionsHandler:42 - [general exception error]  org.springframework.web.client.HttpClientErrorException$BadRequest: 400 : "{"status":400,"message":"duplicated primary key ","timestamp":1661077513845}"
+2022-08-21 12:25:50 INFO  ExecutionTimeAspect:25 - method [insertUser] executed in [ 442 ] ms 
+2022-08-21 12:25:50 ERROR ExceptionsHandler:42 - [general exception error]  org.springframework.web.client.HttpClientErrorException$BadRequest: 400 : "{"status":400,"message":"duplicated primary key ","timestamp":1661077550340}"
+2022-08-21 12:27:04 INFO  ExecutionTimeAspect:25 - method [insertUser] executed in [ 480 ] ms 
+2022-08-21 12:30:40 INFO  ExecutionTimeAspect:25 - method [insertUser] executed in [ 408 ] ms 
+2022-08-21 12:30:40 ERROR ExceptionsHandler:42 - [general exception error]  org.springframework.web.client.HttpClientErrorException$BadRequest: 400 : "{"status":400,"message":"duplicated primary key ","timestamp":1661077840376}"
+2022-08-21 12:32:03 INFO  ExecutionTimeAspect:25 - method [insertUser] executed in [ 429 ] ms 
+2022-08-21 12:32:03 ERROR ExceptionsHandler:42 - [general exception error]  org.springframework.web.client.HttpClientErrorException$BadRequest: 400 : "{"status":400,"message":"duplicated primary key ","timestamp":1661077923521}"
+2022-08-21 12:34:06 INFO  ExecutionTimeAspect:25 - method [insertUser] executed in [ 418 ] ms 
+2022-08-21 12:34:06 ERROR ExceptionsHandler:42 - [general exception error]  org.springframework.web.client.HttpClientErrorException$BadRequest: 400 : "{"status":400,"message":"duplicated primary key ","timestamp":1661078046264}"
+2022-08-21 12:34:38 INFO  ExecutionTimeAspect:25 - method [insertUser] executed in [ 284 ] ms 
+2022-08-21 12:34:38 ERROR ExceptionsHandler:42 - [general exception error]  org.springframework.web.client.HttpClientErrorException$BadRequest: 400 : "{"status":400,"message":"duplicated primary key ","timestamp":1661078078923}"
+2022-08-21 12:34:54 ERROR ExceptionsHandler:42 - [general exception error]  org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `int` from String "3010K": not a valid `int` value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `int` from String "3010K": not a valid `int` value
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 2, column: 15] (through reference chain: com.example.asset.model.User["id"])
+2022-08-21 12:35:30 ERROR ExceptionsHandler:42 - [general exception error]  org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `int` from String "3010K": not a valid `int` value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `int` from String "3010K": not a valid `int` value
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 2, column: 15] (through reference chain: com.example.asset.model.User["id"])
+2022-08-21 12:36:04 INFO  ExecutionTimeAspect:25 - method [insertUser] executed in [ 412 ] ms 
+2022-08-21 12:36:04 ERROR ExceptionsHandler:42 - [general exception error]  org.springframework.web.client.HttpClientErrorException$BadRequest: 400 : "{"status":400,"message":"duplicated primary key ","timestamp":1661078164263}"
+2022-08-21 12:36:11 INFO  ApiAccessImpl:46 - user with id [3012] inserted 
+2022-08-21 12:36:11 INFO  ExecutionTimeAspect:25 - method [insertUser] executed in [ 235 ] ms 
+2022-08-21 12:36:35 INFO  ApiAccessImpl:81 - user with id [3012] updated  
+2022-08-21 12:36:35 INFO  ExecutionTimeAspect:25 - method [updateUser] executed in [ 250 ] ms 
+2022-08-21 12:37:05 ERROR ExceptionsHandler:42 - [general exception error]  org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' not supported
+2022-08-21 12:38:17 INFO  ApiAccessImpl:92 - user with id [3010] deleted 
+2022-08-21 12:38:17 INFO  ExecutionTimeAspect:25 - method [deleteUser] executed in [ 252 ] ms 
+2022-08-21 12:38:31 INFO  ExecutionTimeAspect:25 - method [deleteUser] executed in [ 213 ] ms 
+2022-08-21 12:38:31 ERROR ExceptionsHandler:42 - [general exception error]  org.springframework.web.client.HttpClientErrorException$NotFound: 404 : "{"status":404,"message":"user not found ","timestamp":1661078311210}"
+2022-08-21 12:41:14 INFO  ExecutionTimeAspect:25 - method [deleteUser] executed in [ 276 ] ms 
+2022-08-21 12:41:14 ERROR ExceptionsHandler:42 - [general exception error]  org.springframework.web.client.HttpClientErrorException$NotFound: 404 : "{"status":404,"message":"user not found ","timestamp":1661078474930}"
+2022-08-21 12:43:10 ERROR ApiAccessImpl:97 - user with id [3010] not found 
+2022-08-21 12:43:10 INFO  ExecutionTimeAspect:25 - method [deleteUser] executed in [ 429 ] ms 
